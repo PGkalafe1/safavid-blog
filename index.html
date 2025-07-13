@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شکوه تمدن صفوی - نسخه کامل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header id="main-header">
+            <h1>تمدن صفوی در یک نگاه</h1>
+            <div class="subtitle">۱۵۰۱-۱۷۲۲ میلادی | ۹۰۷-۱۱۳۵ هجری قمری</div>
+        </header>
+        
+        <ul class="nav-links">
+            <li><a href="#history">تاریخچه</a></li>
+            <li><a href="#art">هنر و معماری</a></li>
+            <li><a href="#gallery">گالری</a></li>
+            <li><a href="#more">دانستنی‌ها</a></li>
+        </ul>
+        
+        <div class="card history-section" id="history">
+            <h2>دوره صفویه</h2>
+            <p>صفویان سلسله‌ای شیعه‌مذهب بودند که به مدت ۲۲۱ سال بر ایران حکومت کردند. این دوره را عصر طلایی فرهنگ و هنر ایرانی می‌دانند.</p>
+            <p class="img-caption">شاه عباس کبیر، مشهورترین پادشاه صفوی</p>
+        </div>
+        
+        <div class="card">
+            <h2>مهم‌ترین دستاوردها</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">۱۵۰۱ م</div>
+                    <p>تأسیس سلسله صفوی توسط شاه اسماعیل اول و رسمی‌کردن مذهب شیعه</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">۱۵۹۸ م</div>
+                    <p>انتقال پایتخت به اصفهان توسط شاه عباس اول</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">۱۶۱۱ م</div>
+                    <p>تکمیل مسجد شیخ لطف‌الله، شاهکار معماری اسلامی</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">۱۶۲۹ م</div>
+                    <p>مرگ شاه عباس و آغاز افول تدریجی صفویان</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" id="art">
+            <h2>هنر و معماری</h2>
+            <img src="میدان نقش جهان.jpg" alt="میدان نقش جهان">
+            <p>میدان نقش جهان اصفهان به عنوان میراث جهانی یونسکو ثبت شده است. این میدان شامل:</p>
+            <ul>
+                <li>مسجد شاه (امام)</li>
+                <li>مسجد شیخ لطف‌الله</li>
+                <li>کاخ عالی قاپو</li>
+                <li>سرای قیصریه</li>
+            </ul>
+            <p>معماری صفوی ترکیبی از عناصر سنتی ایرانی و نوآوری‌های منحصر به فرد است.</p>
+        </div>
+        
+        <div class="card" id="gallery">
+            <h2>گالری تصاویر</h2>
+            <div class="gallery" id="safavidGallery">
+                <!-- تصاویر با JS لود می‌شوند -->
+            </div>
+        </div>
+        
+        <div class="card" id="more">
+            <h2>دانستنی‌های بیشتر</h2>
+            <div id="shortText">
+                <p>دوره صفوی یکی از درخشان‌ترین دوره‌های تاریخ ایران محسوب می‌شود...</p>
+                <button class="read-more-btn" onclick="toggleText()">ادامه مطلب ▽</button>
+            </div>
+            <div id="fullText" class="hidden">
+                <p>دوره صفوی (۱۵۰۱-۱۷۲۲ م) نه تنها در تاریخ ایران، بلکه در تاریخ جهان اسلام نقطه عطفی محسوب می‌شود. تأسیس حکومت متمرکز شیعی، ایجاد روابط دیپلماتیک با کشورهای اروپایی، و شکوفایی بی‌نظیر هنرهای ایرانی از ویژگی‌های این دوره است.</p>
+                <p>شاه عباس اول (حکومت: ۱۵۸۸-۱۶۲۹ م) با انجام اصلاحات نظامی و اداری، انتقال پایتخت به اصفهان، و حمایت از هنرمندان، ایران را به یکی از قدرت‌های بزرگ جهان تبدیل کرد. معماری این دوره ترکیبی از سنت‌های ایرانی و نوآوری‌های بدیع است که در بناهایی مانند مسجد شیخ لطف‌الله و کاخ چهلستون تجلی یافته‌است.</p>
+                <p>هنرهای دستی مانند قالی‌بافی، خوشنویسی و تذهیب در این دوره به اوج خود رسید. قالی‌های اصفهان و تبریز از شهرت جهانی برخوردار شدند.</p>
+                <button class="read-more-btn" onclick="toggleText()">بستن △</button>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="credits" style="
+    text-align: center;
+    padding: 20px;
+    background: #f0e6d2;
+    border-top: 1px solid #d4a762;
+    margin-top: 30px;
+    font-family: 'Sahel', sans-serif;
+">
+    <p style="margin: 0; color: #5a2c02;">
+        طراحی و توسعه توسط <strong>امیرحسین جودکی</strong>
+    </p>
+    <p style="margin: 10px 0 0; font-size: 0.9rem;">
+        <a href="https://twitter.com/imjodaki" target="_blank" style="
+            color: #5a2c02;
+            text-decoration: none;
+            font-weight: bold;
+        ">@imjodaki</a>
+    </p>
+</div>
+        </footer>
+
+        <div class="card" id="admin-panel" style="display: none; margin-top: 30px;">
+            <h2>پنل مدیریت</h2>
+            <form id="post-form">
+                <input type="text" id="post-title" placeholder="عنوان مطلب" style="width: 100%; padding: 8px; margin: 8px 0; border: 1px solid #d4a762; border-radius: 4px;">
+                <textarea id="post-content" placeholder="محتوا" style="width: 100%; height: 100px; padding: 8px; margin: 8px 0; border: 1px solid #d4a762; border-radius: 4px;"></textarea>
+                <button type="submit" style="background: #5a2c02; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer;">ذخیره مطلب</button>
+            </form>
+            
+            <div id="posts-list" style="margin-top: 20px;">
+                <!-- پست‌ها اینجا نمایش داده می‌شوند -->
+            </div>
+        </div>
+
+        <button id="toggle-admin" style="position: fixed; bottom: 20px; right: 20px; background: #5a2c02; color: white; border: none; padding: 10px; border-radius: 50%; cursor: pointer; z-index: 1000;">⚙️</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
